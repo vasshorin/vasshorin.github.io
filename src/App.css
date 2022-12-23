@@ -7,12 +7,20 @@
   --header-height: 3rem;
 
   font-family: 'Poppins', sans-serif; 
-  --hue: 100;
-  --sat: 0;
+  /* --hue: 0;
+  --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --text-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 2%); */
+  /* --body-color: rgb(229, 225, 225); */
+  /* --container-color: #fff; */
+
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: rgb(229, 225, 225);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
 
 
@@ -163,6 +171,7 @@ img {
   color: var(--container-color);
   padding: 0.75rem 1.5rem;
   border-radius: 0.75rem;
+  border: black 1px solid;
   font-weight: var(--font-medium);
   text-transform: uppercase;
   transition: all 0.3s ease;
@@ -176,7 +185,7 @@ img {
   margin-right: var(--mb-0-5);
 }
 
-.button__flex {
+.button--flex {
   display: inline-flex;
   align-items: center;
 }
@@ -193,6 +202,26 @@ img {
   pointer-events: none;
 }
 
+/* @MEDIA  */
+@media  screen and (max-width: 768px) {
+
+}
+
+@media  screen and (max-width: 576px) {
+  
+}
+
+@media screen and (max-width: 356px) {
+  .container
+  {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+}
+
+
+/* --------UNUSED------- */
+/* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -221,4 +250,4 @@ img {
   to {
     transform: rotate(360deg);
   }
-}
+} */
