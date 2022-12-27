@@ -4,12 +4,12 @@ import { projectsData } from './Data'
 import { projectNav } from './Data'
 
 const Works = () => {
-    const [selected, setSelected] = useState({name: 'All'});
+    const [selected, setSelected] = useState({name: 'all'});
     const [data, setData] = useState([]);
     const [active, setActive] = useState(0);
 
     useEffect(() => {
-        if(selected.name === 'All') {
+        if(selected.name === 'all') {
             setData(projectsData);
         } else { 
             const newProjects = projectsData.filter((data) => {
@@ -59,12 +59,12 @@ const Works = () => {
         })} 
     </div>
 
-    <div className="work__button">
+    {/* <div className="work__button">
         <a href="#" className="button button--flex">
             More projects
             <i className="uil uil-arrow-right button__icon"></i>
         </a>
-        </div>
+        </div> */}
     
   </div>
 )}

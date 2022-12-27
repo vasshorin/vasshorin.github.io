@@ -21,7 +21,6 @@
     background-color: var(--title-color);
     color: var(--container-color);
     cursor: pointer;
-    color: var(--title-color);
     padding: 0.25rem 0.75rem;
     font-weight: var(--font-medium);
     border-radius: 0.5rem;
