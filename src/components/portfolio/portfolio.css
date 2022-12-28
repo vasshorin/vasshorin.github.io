@@ -124,6 +124,12 @@
     .work__container
     {
         grid-template-columns: repeat(1, 1fr);
+        padding: 1rem;
+    }
+    
+    .work__card
+    {
+        padding: 1.5rem;
     }
 }
 
