@@ -79,12 +79,13 @@
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
+        height: 0;
     }
 
     .nav__list 
     {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 2rem;
     }
 
@@ -98,9 +99,10 @@
 
 
 @media screen and (max-width: 350px) {
-    .mav__menu 
+    .nav__menu 
     {
         padding: 2rem 0.25rem 4rem;
+        height: auto;
     }
 
     .nav__list 
