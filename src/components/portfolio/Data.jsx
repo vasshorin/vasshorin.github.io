@@ -7,31 +7,31 @@ export const projectsData = [
         {
           id: 1,
           image: Work1,
-          title: "Web design",
-          category: "web",
+          title: "IoT YVR sensors",
+          category: "embedded",
         },
         {
           id: 2,
           image: Work2,
-          title: "App movil",
+          title: "JJO game",
           category: "app",
         },
         {
           id: 3,
           image: Work3,
-          title: "Brand design",
-          category: "design",
+          title: "UCAN",
+          category: "web",
         },
         {
           id: 4,
           image: Work4,
-          title: "App movil",
+          title: "TravelMa",
           category: "app",
         },
         {
           id: 5,
           image: Work5,
-          title: "Web design",
+          title: "Easy Travel",
           category: "web",
         },
         {
