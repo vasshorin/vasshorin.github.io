@@ -179,6 +179,7 @@ img {
 
 .button:hover {
   background-color: var(--text-color-dark);
+  color: var(--title-color-dark);
 }
 
 .button__icon {
