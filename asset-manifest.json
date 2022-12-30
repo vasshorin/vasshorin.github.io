@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.0f814b07.css",
-    "main.js": "/static/js/main.814b8dd1.js",
+    "main.js": "/static/js/main.3c861ca1.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/jackJumpsMenu.png": "/static/media/jackJumpsMenu.1b6bd32bedc3d45e3fac.png",
+    "static/media/ucan.png": "/static/media/ucan.679774c39231e2b8d62c.png",
     "static/media/resume.pdf": "/static/media/resume.4fd28339e9f3727f7996.pdf",
-    "static/media/work2.jpg": "/static/media/work2.e52a0c2981a6c11ba468.jpg",
+    "static/media/iot.png": "/static/media/iot.5c1b8aa93a6c75ec94ec.png",
+    "static/media/udp.png": "/static/media/udp.0bb103f5bf02115f5ab6.png",
+    "static/media/easytravel.png": "/static/media/easytravel.d24380751fbe61db0210.png",
     "static/media/profile.jpeg": "/static/media/profile.fd0cd5b38781607cdd7f.jpeg",
-    "static/media/work4.jpg": "/static/media/work4.aee985961b648f4df1f2.jpg",
-    "static/media/work5.jpg": "/static/media/work5.094ec4a2224db8908873.jpg",
-    "static/media/work1.jpg": "/static/media/work1.321b4ae3bf404acdfdc6.jpg",
-    "static/media/work3.jpg": "/static/media/work3.135e9065694bc13dc31d.jpg",
+    "static/media/TravelMa.png": "/static/media/TravelMa.0b2d8b34c21ac9835b6b.png",
     "index.html": "/index.html",
     "main.0f814b07.css.map": "/static/css/main.0f814b07.css.map",
-    "main.814b8dd1.js.map": "/static/js/main.814b8dd1.js.map",
+    "main.3c861ca1.js.map": "/static/js/main.3c861ca1.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f814b07.css",
-    "static/js/main.814b8dd1.js"
+    "static/js/main.3c861ca1.js"
   ]
 }
