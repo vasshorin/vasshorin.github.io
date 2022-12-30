@@ -48,8 +48,9 @@ const Works = () => {
                     <img src={item.image } alt="" className='work__img' />
                     <div className="work__data">
                         <h3 className="work__title">{item.title}</h3>
+                        <span className="work__subtitle">{item.subtitle}</span>
                         {/* <span className="work__category">{item.category}</span> */}
-                        <a href="" className="work__button">Demo
+                        <a href={item.link} className="work__button">Demo
                             <i className="uil uil-link-alt work__button-icon"></i>
                         </a>
                     </div>
