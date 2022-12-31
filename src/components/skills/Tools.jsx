@@ -11,7 +11,7 @@ const Tools = () => {
                 <i class="uil uil-setting"></i>
                     <div>
                         <h3 className="skills__name">HTML</h3>
-                        <span className="skills__level">Beginner</span>
+                        {/* <span className="skills__level">Beginner</span> */}
                     </div>
                 </div>
 
@@ -19,21 +19,21 @@ const Tools = () => {
                 <i class="uil uil-setting"></i>
                     <div>
                         <h3 className="skills__name">CSS</h3>
-                        <span className="skills__level">Beginner</span>
+                        {/* <span className="skills__level">Beginner</span> */}
                     </div>
                 </div>
                 <div className="skills__data">
                 <i class="uil uil-setting"></i>
                     <div>
                         <h3 className="skills__name">GIT</h3>
-                        <span className="skills__level">Beginner</span>
+                        {/* <span className="skills__level">Beginner</span> */}
                     </div>
                 </div>
                 <div className="skills__data">
                 <i class="uil uil-setting"></i>
                     <div>
                         <h3 className="skills__name">Termnial</h3>
-                        <span className="skills__level">Beginner</span>
+                        {/* <span className="skills__level">Beginner</span> */}
                     </div>
                 </div>
             </div>

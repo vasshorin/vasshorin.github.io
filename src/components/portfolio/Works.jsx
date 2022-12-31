@@ -50,6 +50,7 @@ const Works = () => {
                         <h3 className="work__title">{item.title}</h3>
                         <span className="work__subtitle">{item.subtitle}</span>
                         {/* <span className="work__category">{item.category}</span> */}
+                        <br />
                         <a href={item.link} className="work__button">Demo
                             <i className="uil uil-link-alt work__button-icon"></i>
                         </a>
