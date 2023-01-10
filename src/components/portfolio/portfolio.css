@@ -45,11 +45,13 @@
     border-radius: 1rem;
     border: 1px solid black;
     padding: 1rem;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    /* flex-direction: column; */
     justify-content: space-between;
     position: relative;
 }
+
 .work__img 
 {
     width: 100%;

@@ -64,7 +64,5 @@ export const projectNav = [
     {
         name: "app",
     },
-    {
-        name: "design",
-    },
+
 ]
